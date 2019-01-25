@@ -1,5 +1,6 @@
 I just copy some questions I am interesting from some website
-From http://www.codespaghetti.com/devops-interview-questions/#linux
+### From http://www.codespaghetti.com/devops-interview-questions/#linux
+### From https://mindmajix.com/linux-interview-questions
 
 # Question: What is Linux?
 Linux is the best-known and most-used open source operating system. As an operating system, Linux is a software that sits underneath all of the other software on a computer, receiving requests from those programs and relaying these requests to the computer’s hardware.
@@ -147,3 +148,6 @@ From https://mindmajix.com/linux-interview-questions
 # Q. What is iptables command in Linux?
 A. iptables command blocks or allows traffic on a Linux host, similar to a network firewall. This iptables command may prevent certain applications from receiving or transmitting requests.
 
+
+# Inter process communication
+please refer to https://github.com/Qiu-Ye/InterviewFAQ-Linux#%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1
