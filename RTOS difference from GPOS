@@ -1,0 +1,18 @@
+Reading from http://www.circuitstoday.com/gpos-versus-rtos-for-an-embedded-system
+
+## RTOS difference
+
+1) RTOS kernel is Preemptible Kernel. When high priority task triggerred, it will take CPU.
+In an RTOS the kernel is kept very simple and only very important service requests are kept within the kernel call. All other service requests are treated as external processes and threads. All such service requests from kernel are associated with a bounded latency in an RTOS. This ensures highly predictable and quick response from an RTOS.
+
+2) Hardware and Economical factors
+An RTOS is usually designed for a low end, stand alone device like an ATM, Vending machines, Kiosks etc. RTOS is light weight and small in size compared to a GPOS.
+
+3) Task Scheduling
+In the case of a GPOS – task scheduling is not based on  “priority” always! It is designed to archive high throughput( the total number of processes that complete their execution per unit time. ).
+
+RTOS – scheduling is always priority based. Most RTOS uses pre-emptive task scheduling method which is based on priority levels. Here a high priority process gets executed over the low priority ones.
+
+4) Latency
+ GPOS is unbounded dispatch latency
+ RTOS has got bounded latencies
