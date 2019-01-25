@@ -2,7 +2,8 @@ I just copy some questions I am interesting from some website
 ### From http://www.codespaghetti.com/devops-interview-questions/#linux
 ### From https://mindmajix.com/linux-interview-questions
 
-# Question: What is Linux?
+# Basic Knowledge
+## Question: What is Linux?
 Linux is the best-known and most-used open source operating system. As an operating system, Linux is a software that sits underneath all of the other software on a computer, receiving requests from those programs and relaying these requests to the computer’s hardware.
 In many ways, Linux is similar to other operating systems such as Windows, OS X, or iOS
 But Linux also is different from other operating systems in many important ways.
@@ -14,7 +15,7 @@ System Utility: System Utility performs specific and individual level tasks.
 
 
 
-# Question: What Is Difference Between Linux & Unix?
+## Question: What Is Difference Between Linux & Unix?
 Unix and Linux are similar in many ways, and in fact, Linux was originally created to be similar to Unix.
 Both have similar tools for interfacing with the systems, programming tools, filesystem layouts, and other key components.
 However, Unix is not free. Over the years, a number of different operating systems have been created that attempted to be “unix-like” or “unix-compatible,” but Linux has been the most successful, far surpassing its predecessors in popularity.
@@ -38,7 +39,7 @@ Backup And Recovery
 
 UNIX and Linux come with their own set of tools for backing up data to tape and other backup media. However, both Linux and UNIX share some common tools such as tar, dump/restore, and cpio etc.
 
-# Basic Knowledge
+
 ## Question: What Is BASH?
 BASH stands for Bourne Again Shell. BASH is the UNIX shell for the GNU operating system. So, BASH is the command language interpreter that helps you to enter your input, and thus you can retrieve information.
 In a straightforward language, BASH is a program that will understand the data entered by the user and execute the command and gives output.
